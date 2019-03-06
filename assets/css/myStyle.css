@@ -2,6 +2,20 @@ html {
 	background-color: darkred;
 }
 
+img {
+	border-radius: 5px;
+}
+
+.shop-name-box {
+	float: left;
+}
+
+.lines-styling {
+	float: right;
+	line-height: 20%;
+	margin-top: 11px;
+}
+
 .shop-name-white {
 	font-family: "Source Sans Pro", "Arial", sans-serif;
 	color: white;
@@ -18,5 +32,46 @@ html {
 	width: 30px;
   	height: 2px;
   	border-radius: 2px;
-  	background-color: black;
+  	background-color: darkred;
 }
+
+.main-pic {
+	width: 60%;
+	display: block;
+  	margin: 10px auto;
+  	border-radius: 5px;
+}
+
+.some-text {
+	display: inherit;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.services {
+	padding-top: 20px;
+	background-color: darkred;
+	text-align: center;
+}
+
+.services-box {
+	margin-bottom: 30px;
+}
+
+.footer {
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	color: white;
+   	text-align: center;
+}
+
+.footer-content {
+	height: 10px;
+	margin: auto;
+}
+
+
+
+

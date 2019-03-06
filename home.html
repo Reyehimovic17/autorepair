@@ -17,16 +17,17 @@
     <div class="container-fullwidth">
        
 
-    <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
       <div>
-          <div style="float: left;">
+          <div class="shop-name-box">
             <div class="shop-name-white"><span>NEW & IMPROVED</span><br>
               <span class="shop-name-red">AUTO </span>
               <span class="shop-name-white">REPAIR </span>
             </div>
           </div>
 
-              <div style="float: right; line-height: 20%; margin-top: 11px;">
+              <div class="lines-styling">
                 <div class="hamburger-lines"></div><br>
                 <div class="hamburger-lines"></div><br>
                 <div class="hamburger-lines"></div><br>
@@ -38,37 +39,59 @@
                 <div class="hamburger-lines"></div><br>
               </div>
       </div>
+    </a>
 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">History<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us<span class="sr-only"></span></a>
+          </li>
+        </ul>
+        
+      </div>
 
-      <a class="navbar-brand" href="#"><!-- <img style="width: 125px;" src="./assets/images/autorepairlogo.png"> --></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  </nav>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">History<span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Services<span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us<span class="sr-only"></span></a>
-      </li>
-    </ul>
-    
-  </div>
+    <div>
+      <img class="main-pic" src="./assets/images/inside-shop.jpeg">
+    </div>
 
-    </nav>
+    <div class="some-text">
+      <span>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur, lorem sed facilisis rhoncus, mi sapien scelerisque tellus, nec vestibulum metus leo et ipsum. Sed enim tortor, sodales ut quam porta, lacinia vestibulum magna. Nulla elementum diam ut imperdiet sodales.
+      </span>
+    </div>
 
+    <div class="services-box">
+      <div class="services">
+        <img src="https://via.placeholder.com/400x60?text=OIL +CHANGE">
+      </div>
 
+      <div class="services">
+        <img src="https://via.placeholder.com/400x60?text=BRAKE +CHANGE">
+      </div>
 
+      <div class="services">
+        <img src="https://via.placeholder.com/400x60?text=TIRES +AND +WHEEL +ALIGNMENT">
+      </div>
 
+      <div class="services" id="bottom-space">
+        <img src="https://via.placeholder.com/400x60?text=ALL +AUTO +REPAIRS">
+      </div>
+    </div>
 
 
 
@@ -76,6 +99,11 @@
 
 
     </div>
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="footer-content">
+        &copy 2019-2020 New &amp; Improved Auto Repair
+      </div>
+    </footer>
     <!-- Include jQuery (required) and the JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
