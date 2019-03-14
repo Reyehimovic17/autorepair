@@ -6,6 +6,11 @@ img {
 	border-radius: 5px;
 }
 
+.parallax {
+    min-height: 400px;
+    background: transparent;
+}
+
 .shop-name-box {
 	float: left;
 }
